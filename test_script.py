@@ -111,4 +111,4 @@ async def on_message(message):
 async def on_voice_state_update(member, before, after):
     print(f'{member.nick} moved from {before.channel.name} to {after.channel.name}')
 
-bot.run("OTkzMTQ5NTA1MDIzMjU0NjA5.GmX11U.Jzn0YQOZ5ZIFnLaW3UOjhBWAFNuqNBSUue4XXc")
+bot.run()
